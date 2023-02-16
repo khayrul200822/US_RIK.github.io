@@ -156,7 +156,7 @@ section#why_US_RKI:hover .description p {
 
 }
 a:last-child .button {
-    margin-right: 0;
+    margin-right: 0 !important;
 }
 .hero_btn button.button:hover {
     background: white;
