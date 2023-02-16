@@ -601,7 +601,7 @@ hr {
     font-size: 25px;
 }
 .contact_box {
-    width: 370px !important;
+    width: 310px !important;
 }
 .FAQ_title h1 {
     font-size: 26px;
@@ -612,7 +612,11 @@ hr {
 .single_fbox ul li a {
     font-size: 17px;
 }
-.single_fbox h3 {
+.single_fbox h3, .contact_box h3 {
     font-size: 26px;
+}
+.hero_btn button.button {
+    font-size: 16px;
+    padding: 10px 35px;
 }
 }
