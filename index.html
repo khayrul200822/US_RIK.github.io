@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <!-- header section start here -->
     <header id="header_section">
         <div class="container">
             <nav class="navbar navbar-expand-lg col-12 px-2 py-3">
@@ -28,51 +29,62 @@
                         <img class="img-fluid" src="img/logo.png" alt="">
                     </a>
                 </div>
-                <div class="col-10 d-flex flex-column justify-content-between">
-                    <div class="toogle_btn d-flex justify-content-end">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon">
+
+
+                    </span>
+                </button>
+                <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
                     </div>
-                    <!-- navigation bar -->
+                    <div class="offcanvas-body ">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item pe-2">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item pe-2">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item pe-2">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item pe-2">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item pe-2">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
 
 
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                        <div class="d-flex justify-content-center justify-content-md-start">
-                            <ul class="navbar-nav d-flex m-auto">
-                                <li class="nav-item me-3"><a class="nav-link active" href="#">Home</a></li>
-                                <li class="nav-item me-3"><a class="nav-link" href="#">Services</a></li>
-                                <li class="nav-item me-3"><a class="nav-link" href="#">Contact</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">About me</a></li>
-                            </ul>
-                        </div>
 
-
-
-                        <div class=" d-flex justify-content-center mt-4 mt-lg-0">
-
-                            <a href="#" class="header_btn">
+                        </ul>
+                        <a class="header-button d-flex justify-content-center justify-content-lg-end text-decoration-none "
+                            href="#">
+                            <a href="#" class="header_btn btn1">
                                 <button type="submit">Admin Pannle</button>
                             </a>
 
-                            <a href="#" class="header_btn">
+                            <a href="#" class="header_btn btn2">
                                 <button type="submit">SubAdmin Pannle</button>
                             </a>
-
-                        </div>
+                        </a>
                     </div>
-
                 </div>
-
             </nav>
 
         </div>
     </header>
+    <!-- header section end here -->
 
-
-
+    <!-- hero section start here -->
     <section id="hero_section">
         <div class="col-12 H_images">
             <div class="col-12 d-flex justify-content-center align-items-center header_images">
@@ -118,7 +130,9 @@
         </div>
         </div>
     </section>
+    <!-- hero section end here -->
 
+    <!-- why_ukrik section start here -->
     <section id="why_US_RKI">
         <div class="container">
             <div class="col-12">
@@ -133,9 +147,9 @@
 
             </div>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center justify-content-lg-between">
                 <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center contact_box">
-                    <div class="contact_sBox mb-5 mb-lg-0">
+                    <div class="contact_sBox sBox_anim1  mb-5 mb-lg-0">
                         <h3>US RIK Message</h3>
                         <div class="contact_img">
                             <img class="img-fluid" src="img/gp-1.png">
@@ -146,7 +160,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center contact_box">
-                    <div class="contact_sBox mb-5 mb-lg-0">
+                    <div class="contact_sBox sBox_anim2 mb-5 mb-lg-0">
                         <h3>US RIK Meeting</h3>
                         <div class="contact_img">
                             <img class="img-fluid" src="img/gp-2.png">
@@ -157,7 +171,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center contact_box">
-                    <div class="contact_sBox mb-5 mb-lg-0 ">
+                    <div class="contact_sBox sBox_anim3 mb-5 mb-lg-0 ">
                         <h3>US RIK Digital</h3>
                         <div class="contact_img">
                             <img class="img-fluid" src="img/gp-3.png">
@@ -168,7 +182,9 @@
             </div>
         </div>
     </section>
+    <!-- why_ukrik section end here -->
 
+    <!-- FAQ section start here -->
     <section id="FAQ_section">
         <div class="container">
             <div class="FAQ_wrapper">
@@ -177,7 +193,7 @@
                 </div>
 
                 <div class="col-12 question_boxs">
-                    <div class="d-flex justify-content-between align-items-center question mb-4">
+                    <div class="d-flex justify-content-between align-items-center question mb-4 q_anim1">
                         <div class="Q_title">
                             <h3>What is US RIK E-learning platform?</h3>
                         </div>
@@ -186,36 +202,36 @@
                         </div>
                     </div>
 
-                    <div class="d-flex justify-content-between align-items-center question mb-4">
+                    <div class="d-flex justify-content-between align-items-center question mb-4 q_anim2">
                         <div class="Q_title">
-                            <h3>What is US RIK E-learning platform?</h3>
+                            <h3>Do we need to pay any admission fee to join this company ?</h3>
                         </div>
                         <div class="Q_icon">
                             <i class="fa-solid fa-plus"></i>
                         </div>
                     </div>
 
-                    <div class="d-flex justify-content-between align-items-center question mb-4">
+                    <div class="d-flex justify-content-between align-items-center question mb-4 q_anim3">
                         <div class="Q_title">
-                            <h3>What is US RIK E-learning platform?</h3>
+                            <h3>Can we do this from the comfort of our home ( work from home ) ?</h3>
                         </div>
                         <div class="Q_icon">
                             <i class="fa-solid fa-plus"></i>
                         </div>
                     </div>
 
-                    <div class="d-flex justify-content-between align-items-center question mb-4">
+                    <div class="d-flex justify-content-between align-items-center question mb-4 q_anim4">
                         <div class="Q_title">
-                            <h3>What is US RIK E-learning platform?</h3>
+                            <h3>What kind of documents and gadgets do we need to do this work ?</h3>
                         </div>
                         <div class="Q_icon">
                             <i class="fa-solid fa-plus"></i>
                         </div>
                     </div>
 
-                    <div class="d-flex justify-content-between align-items-center question mb-4">
+                    <div class="d-flex justify-content-between align-items-center question mb-4 q_anim5">
                         <div class="Q_title">
-                            <h3>What is US RIK E-learning platform?</h3>
+                            <h3>Is this a part-time or a full-time Work ?</h3>
                         </div>
                         <div class="Q_icon">
                             <i class="fa-solid fa-plus"></i>
@@ -226,6 +242,7 @@
             </div>
         </div>
     </section>
+    <!-- FAQ section end here -->
 
     <!-- footer section start -->
 
@@ -292,6 +309,7 @@
         </div>
     </section>
     <hr>
+    <!-- copyright section -->
     <section id="copyright_section">
         <div class="container">
             <div class="copyright_text d-flex justify-content-center align-items-center p-1">
@@ -299,6 +317,8 @@
             </div>
         </div>
     </section>
+
+    <!-- footer section end here -->
 
 
 </body>
