@@ -117,7 +117,7 @@ section#why_US_RKI:hover .description p {
 
 .hero_section p {
     line-height: 34px;
-    font-size: 20px !important;
+    font-size: 20px;
     animation: p_animation 3s ease 1s alternate forwards;
     opacity: 0;
     color: white;
@@ -155,7 +155,9 @@ section#why_US_RKI:hover .description p {
     }
 
 }
-
+a:last-child .button {
+    margin-right: 0;
+}
 .hero_btn button.button:hover {
     background: white;
     border: 3px solid #39B5FF;
@@ -581,4 +583,36 @@ hr {
         width: 280px;
         margin: auto;
     }
+}
+/* responsive for mobile */
+@media (max-width: 556px) {
+.hero_section h1{
+    font-size: 40px;
+    list-style: 65px
+}
+.header_img1.img-fluid {
+    max-width: 325px;
+}
+ p {
+    font-size: 17px !important;
+    text-align: center;
+}
+.description h1 {
+    font-size: 25px;
+}
+.contact_box {
+    width: 370px !important;
+}
+.FAQ_title h1 {
+    font-size: 26px;
+}
+.question .Q_title h3{
+    font-size: 17px;
+}
+.single_fbox ul li a {
+    font-size: 17px;
+}
+.single_fbox h3 {
+    font-size: 26px;
+}
 }
