@@ -398,7 +398,7 @@ section#FAQ_section:hover .FAQ_title h1 {
 
 
 section#footer_section {
-    
+
     background: #73C9A2;
     padding-bottom: 0;
     color: white;
@@ -612,6 +612,7 @@ hr {
 }
 .description h1 {
     font-size: 25px;
+    text-align: center;
 }
 .contact_box {
     width: 330px !important;
