@@ -44,7 +44,7 @@ a.header_btn.btn2 button {
     font-size: 20px !important;
 }
 header#header_section {
-    background: #bfe7ff;
+    background: #7094f1d1;
 }
 .btn1 button:hover {
     background: #5271FF;
@@ -78,7 +78,7 @@ section.header_img_section {
 
 /* hero section style */
 #hero_section {
-    background: linear-gradient(360deg, rgb(82, 113, 255) 40%, #BFE7FF);
+    background: linear-gradient(360deg, rgb(82, 113, 255) 70%, #8AA7F4);
     padding-top: 0 !important;
 }
 
@@ -556,7 +556,7 @@ hr {
 }
 @media (max-width: 991px) {
     #hero_section {
-        background: linear-gradient(360deg, rgb(82, 113, 255) 65%, #BFE7FF);
+        background: linear-gradient(360deg, rgb(82, 113, 255) 84%, #7094f1d1);
        
 }
 
