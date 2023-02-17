@@ -613,7 +613,13 @@ hr {
 .description h1 {
     font-size: 25px;
     text-align: center;
-    
+
+}
+.single_fbox ul li{
+    margin-bottom: 5px;
+}
+.single_fbox ul {
+    margin-top: 15px;
 }
 .contact_box {
     width: 330px !important;
