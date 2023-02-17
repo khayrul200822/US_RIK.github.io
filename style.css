@@ -603,7 +603,7 @@ hr {
     line-height: 65px
 }
 .header_img1.img-fluid {
-    max-width: 235px;
+    max-width: 200px;
 }
  p {
     font-size: 17px !important;
@@ -613,7 +613,7 @@ hr {
     font-size: 25px;
 }
 .contact_box {
-    width: 370px !important;
+    width: 330px !important;
 }
 .FAQ_title h1 {
     font-size: 26px;
