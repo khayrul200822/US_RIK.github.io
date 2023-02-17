@@ -40,11 +40,11 @@ a.header_btn.btn2 button {
 }
 
 .nav-link {
-    color: white !important;
+    color: #5271FC!important;
     font-size: 20px !important;
 }
 header#header_section {
-    background: #7094f1d1;
+    background: #8aa7f4bf;
 }
 .btn1 button:hover {
     background: #5271FF;
@@ -78,7 +78,7 @@ section.header_img_section {
 
 /* hero section style */
 #hero_section {
-    background: linear-gradient(360deg, rgb(82, 113, 255) 70%, #8AA7F4);
+    background: linear-gradient(360deg, rgb(82, 113, 255) 70%, #8aa7f4bf);
     padding-top: 0 !important;
 }
 
