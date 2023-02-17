@@ -93,9 +93,9 @@ section#why_US_RKI:hover .description h1 {
 }
 
 .hero_section h1 {
-    color: black;
+    color: white;
     font-size: 64px;
-    font-weight: 600;
+    font-weight: 900;
     line-height: 85px;
     animation: tilte_animation 3s ease alternate forwards;
 }
@@ -239,11 +239,12 @@ a:last-child .button {
 }
 
 .description h1 {
-    width: 794px;
+    max-width: 810px;
     font-size: 40px;
     margin-bottom: 35px;
     color: #4664ee;
     line-height: 1.6em;
+    font-weight: 700;
 }
 
 .description p {
@@ -372,7 +373,7 @@ section#FAQ_section {
     font-size: 40px;
     color: white;
     opacity: 1;
-
+    font-weight: 700;
 }
 
 section#FAQ_section:hover .FAQ_title h1 {
