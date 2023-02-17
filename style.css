@@ -79,7 +79,7 @@ section.header_img_section {
 /* hero section style */
 #hero_section {
     background: linear-gradient(360deg, rgb(82, 113, 255) 70%, #8aa7f4bf);
-    padding-top: 0 !important;
+    padding: 90px 0px;
 }
 
 .H_images {
