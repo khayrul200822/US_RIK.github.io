@@ -607,6 +607,10 @@ hr {
     font-size: 17px !important;
     text-align: center;
 }
+.header_btn button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 .description h1 {
     font-size: 25px;
     text-align: center;
