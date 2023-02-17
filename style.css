@@ -587,11 +587,11 @@ hr {
 /* responsive for mobile */
 @media (max-width: 556px) {
 .hero_section h1{
-    font-size: 40px;
-    list-style: 65px
+    font-size: 35px;
+    line-height: 65px
 }
 .header_img1.img-fluid {
-    max-width: 325px;
+    max-width: 235px;
 }
  p {
     font-size: 17px !important;
@@ -601,7 +601,7 @@ hr {
     font-size: 25px;
 }
 .contact_box {
-    width: 310px !important;
+    width: 370px !important;
 }
 .FAQ_title h1 {
     font-size: 26px;
@@ -612,11 +612,53 @@ hr {
 .single_fbox ul li a {
     font-size: 17px;
 }
-.single_fbox h3, .contact_box h3 {
+.single_fbox h3 {
     font-size: 26px;
 }
-.hero_btn button.button {
-    font-size: 16px;
-    padding: 10px 35px;
+
+.contact_box_wrapper:hover .sBox_anim1 {
+    animation: box_animation1 5s ease alternate forwards;
+}.contact_box_wrapper:hover .sBox_anim2 {
+    animation: box_animation1 5s ease 1s alternate forwards;
 }
+.contact_box_wrapper:hover .sBox_anim3 {
+    animation: box_animation1 5s ease 2s alternate forwards;
+}
+@keyframes box_animation1 {
+    0% {
+        opacity: 0;
+        transform: translate(-500px, -200px);
+    }
+   
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes box_animation2 {
+    0% {
+        opacity: 0;
+        transform: translate(500px, -200px);
+    }
+   
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes box_animation3 {
+    0% {
+        opacity: 0;
+        transform: translate(-500px, -200px);
+    }
+   
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+
 }
