@@ -14,22 +14,26 @@ ul li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
-
+.container{
+    overflow: hidden;
+}
 section {
     padding: 65px 0;
 }
 
 /* header section style */
 .navbar-brand .img-fluid {
-    max-width: 170px;
+    max-width: 150px;
 }
-
+a.header_btn.btn2 button {
+    margin-right: 0px !important;
+}
 .header_btn button {
     border-radius: 10px;
     padding: 10px 15px;
-    margin-right: 10px;
+    margin-right: 20px;
     border: none;
     color: white;
     font-size: 17px;
@@ -173,7 +177,7 @@ a:last-child .button {
     color: white;
     font-weight: 700;
     transition: .2s;
-    background: #39B5FF;
+    background: #39B4FD;
     border: 3px solid transparent;
 }
 /* a.nav-link:after {
@@ -323,7 +327,7 @@ section#why_US_RKI:hover .sBox_anim3 {
 }
 
 .contact_sBox {
-    background: #3AB5FE;
+    background: #39B4FD;
     border-radius: 10px;
     transition: .3s;
 }
@@ -394,9 +398,9 @@ section#FAQ_section:hover .FAQ_title h1 {
 
 
 section#footer_section {
-    background: #BFE7FF;
-    color: #5271FF;
+    background: #3AB5FF;
     padding-bottom: 0;
+    color: white;
 }
 
 .question {
@@ -490,8 +494,11 @@ section#FAQ_section:hover  .question_boxs .q_anim5 {
 .single_fbox a {
     text-decoration: none;
 }
+.Q_icon {
+    margin-left: 20px 0px !important;
+}
 .single_fbox ul li a:hover {
-    color: #5271FF;
+    color: #ffffff;
 }
 section#copyright_section {
     padding: 20px 0;
@@ -503,6 +510,7 @@ section#copyright_section {
     text-align: center;
     display: block;
     font-size: 20px;
+    color: white;
 }
 
 .single_fbox .address a:after {
@@ -539,6 +547,10 @@ hr {
     }
     .hero_section h1 {
         font-size: 53px;
+    }
+    .header_btn button{
+        font-size: 15px;
+        padding: 10px 18px;;
     }
 }
 @media (max-width: 991px) {
@@ -618,11 +630,9 @@ hr {
 
 .contact_box_wrapper:hover .sBox_anim1 {
     animation: box_animation1 5s ease alternate forwards;
-}.contact_box_wrapper:hover .sBox_anim2 {
-    animation: box_animation1 5s ease 1s alternate forwards;
 }
 .contact_box_wrapper:hover .sBox_anim3 {
-    animation: box_animation1 5s ease 2s alternate forwards;
+    animation: box_animation1 5s ease 5s alternate forwards;
 }
 @keyframes box_animation1 {
     0% {
@@ -636,6 +646,10 @@ hr {
     }
 }
 
+
+.contact_box_wrapper:hover .sBox_anim2 {
+    animation: box_animation1 5s ease 3s alternate forwards;
+}
 @keyframes box_animation2 {
     0% {
         opacity: 0;
