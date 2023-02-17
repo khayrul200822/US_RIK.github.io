@@ -397,12 +397,7 @@ section#FAQ_section:hover .FAQ_title h1 {
 }
 
 
-section#footer_section {
-
-    background: #73C9A2;
-    padding-bottom: 0;
-    color: white;
-}
+section#footer_section {background: white;padding-bottom: 0;color: #4768fb;}
 
 .question {
     background: white;
@@ -465,6 +460,7 @@ section#FAQ_section:hover  .question_boxs .q_anim5 {
 
 .single_fbox h3 {
     font-size: 33px;
+    font-weight: 600;
 }
 
 .single_fbox ul li a {
@@ -499,7 +495,7 @@ section#FAQ_section:hover  .question_boxs .q_anim5 {
     margin-left: 20px 0px !important;
 }
 .single_fbox ul li a:hover {
-    color: #ffffff;
+    color: #5271FF;
 }
 section#copyright_section {
     padding: 20px 0;
@@ -511,7 +507,8 @@ section#copyright_section {
     text-align: center;
     display: block;
     font-size: 20px;
-    color: white;
+    color: #5271FF;
+    font-weight: 700;
 }
 
 .single_fbox .address a:after {
