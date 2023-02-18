@@ -65,6 +65,19 @@ section#form_section {
 .login_form .form_btn:last-child button{
     padding: 10px 20px;
 }
+hr{
+    color: white !important;
+    margin: 20px 0px !important;
+    border-top: 2px solid !important;
+    opacity: .5 !important;
+}
+.remember_box input {
+    width: 15px;
+    margin-bottom: 0 !important;
+}
+.login_form .alert_div{
+    margin-bottom: 20px;
+}
 @media (max-width: 556px){
     
     section#form_section .form_title h2{
@@ -74,19 +87,5 @@ section#form_section {
         
     }
    
-    .signUP .alert_div p {
-    text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
 }
 
-
-    .signUP form h3{
-        font-size: 25px;
-    }
-    .signUP {
-
-        width: 310px;
-    
-    }
-}
