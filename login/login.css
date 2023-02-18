@@ -65,8 +65,7 @@ section#form_section {
     color: #39B5FF;
     transition: .2s;
 }
-.login_form .form_btn:last-child button{
-}
+
 hr{
     color: white !important;
     margin: 20px 0px !important;
