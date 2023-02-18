@@ -62,9 +62,7 @@ section#form_section .form_title h2 {
     transition: .2s;
     border: 1px solid #418FFF;
 }
-.signUP .form_tabs a span{
-   font-family: 'Oswald', sans-serif !important;
-}
+
 .signUP .form_tabs a {
     background: linear-gradient(45deg, #5073FB, #39B5FF);
     font-size: 18px;
@@ -151,6 +149,9 @@ section#form_section .form_title h2 {
         text-align: center;
         
     }
+    .signUP .form_tabs a span{
+        font-family: 'Oswald', sans-serif !important;
+     }
     .signUP .alert_div p {
     text-align: center;
     font-size: 18px;
