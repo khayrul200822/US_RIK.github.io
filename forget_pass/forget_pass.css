@@ -1,0 +1,73 @@
+ /* josifin font */
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+
+ section#F_pass_section p, label{
+    font-size: 18px;
+ }
+section#F_pass_section {
+    background:linear-gradient(360deg, rgb(82, 113, 255) 70%, #8aa7f4bf);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    min-height: 82vh;
+}
+.fp_form label{
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: white;
+
+}
+.fp_form small{
+    color: white;
+    font-size: 14px;
+  
+}
+.fp_form input {
+    width: 100%;
+    font-size: 18px;
+    padding: 16px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background: #DEE1E6;
+}
+.fp_form .fp_btn{
+    display: flex;
+    justify-content: center;
+}
+.fp_form .fp_btn button:hover{
+    background: white;
+    color:#39B5FF ;
+    transition: .2s;
+}
+.fp_form .fp_btn button {
+ 
+    font-size: 20px;
+    background: #39B5FF;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: .2s;
+    width: 300px;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.fp_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px;
+    width: 450px;
+    border-radius: 20px;
+}
