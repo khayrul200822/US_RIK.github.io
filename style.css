@@ -557,6 +557,10 @@ hr {
         background: linear-gradient(360deg, rgb(82, 113, 255) 84%, #8aa7f4bf);
        
 }
+ .header_btn button{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
 
 }
 @media (min-width: 1200px) {
@@ -564,6 +568,7 @@ hr {
     .hero_section h1 {
         font-size: 55px;
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -571,7 +576,7 @@ hr {
         width: 450px !important;
         padding-right: 0 !important;
     }
-
+   
     .hero_section h1 {
         font-size: 50px;
     }
@@ -608,10 +613,7 @@ hr {
     font-size: 17px !important;
     text-align: center;
 }
-.header_btn button{
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
+
 .description h1 {
     font-size: 25px;
     text-align: center;
@@ -686,9 +688,5 @@ hr {
     }
 }
 
-/* .header-button{
-    display: flex;
-    justify-content: center;
-    
-} */
+
 }
