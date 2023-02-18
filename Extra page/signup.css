@@ -1,5 +1,7 @@
+ /* josifin font */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+/* oswald font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -60,6 +62,9 @@ section#form_section .form_title h2 {
     transition: .2s;
     border: 1px solid #418FFF;
 }
+.signUP .form_tabs a span{
+   font-family: 'Oswald', sans-serif !important;
+}
 .signUP .form_tabs a {
     background: linear-gradient(45deg, #5073FB, #39B5FF);
     font-size: 18px;
@@ -70,6 +75,7 @@ section#form_section .form_title h2 {
     border-radius: 20px;
     border: 1px solid #418FFF;
     transition: .2s;
+ 
 }
 
 .signUP .form_tabs a:last-child {
@@ -90,7 +96,7 @@ section#form_section .form_title h2 {
 .signUP form h3 {
     font-size: 30px;
     text-align: center;
-    color: white;
+  color: #418FFF;
     margin-top: 25px;
     margin-bottom: 40px;
 }
@@ -130,8 +136,6 @@ section#form_section .form_title h2 {
 
 @media (max-width: 556px){
     .signUP .form_btn button {
-     
-       
         padding: 10px 50px;
         font-size: 20px;
         background: #4B86FF;
@@ -141,20 +145,22 @@ section#form_section .form_title h2 {
     section#form_section .form_title h2{
         font-size: 30px;
         margin-bottom: 20px;
+        text-align: center;
         
     }
     .signUP .form_tabs a {
-        font-size:12px;
-        margin-right: 0px;
+        font-size:15px;
+        
         text-decoration: none;
-        padding: 10px 15px;
+        padding: 5px 9px;
     }
+    
     .signUP form h3{
         font-size: 25px;
     }
     .signUP {
 
-        width: 390px;
+        width: 365px;
     
     }
 }
