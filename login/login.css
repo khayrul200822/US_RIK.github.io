@@ -7,20 +7,26 @@
     font-family: 'Josefin Sans', sans-serif;
  }
 
- .login .form_title h2{
+ #form_section .form_title h2{
     font-size: 40px;
     margin-bottom: 20px;
+    color: white;
  }
 .login {
     display: flex;
     flex-direction: column;
-    background: white;
     margin-top: 30px;
     padding: 20px;
-    width: 539px;
+    width: 450px;
     border-radius: 20px;
 }
-
+.form_title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    width: 385px;
+}
 .login input {
     width: 100%;
     font-size: 15px;
@@ -41,15 +47,26 @@ section#form_section {
     padding: 60px 0px;
     min-height: 82vh;
 }
-
+.login_form .form_btn button {
+    padding: 10px 124px;
+    font-size: 20px;
+    background: #39B5FF;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: .2s;
+}
+.login_form .form_btn button:hover {
+    background: white;
+    border-color: #39B5FF;
+    color: #39B5FF;
+    transition: .2s;
+}
+.login_form .form_btn:last-child button{
+    padding: 10px 20px;
+}
 @media (max-width: 556px){
-    .signUP .form_btn button {
-        padding: 10px 50px;
-        font-size: 20px;
-        background: #4B86FF;
-        color: white;
-     
-    }
+    
     section#form_section .form_title h2{
         font-size: 30px;
         margin-bottom: 20px;
