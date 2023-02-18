@@ -79,6 +79,9 @@ hr{
 .login_form .alert_div{
     margin-bottom: 20px;
 }
+.login_form .alert_div:hover{
+   text-decoration: underline;
+}
 .form_title p {
     font-size: 14px;
 }
