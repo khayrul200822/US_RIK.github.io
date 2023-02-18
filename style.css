@@ -686,5 +686,9 @@ hr {
     }
 }
 
-
+.header-button{
+    display: flex;
+    justify-content: center;
+    
+}
 }
