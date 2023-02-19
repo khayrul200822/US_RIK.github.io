@@ -55,7 +55,7 @@
      width: 539px;
      display: flex;
      border-radius: 20px;
-     height: 537px;
+     min-height: 537px;
      overflow: hidden;
  }
  .signUP .form_tabs {
