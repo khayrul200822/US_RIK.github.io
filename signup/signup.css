@@ -46,7 +46,6 @@
  .signUP {
      display: flex;
      flex-direction: column;
-     /* margin-top: 30px; */
      padding: 20px;
      background-color: white;
  }
@@ -123,22 +122,40 @@
      font-size: 18px;
      margin-top: 20px;
  }
- 
- .signUP .form_btn button {
+.form_btn button:first-child {
+    background: #5073FB;
+ }
+ .form_btn button:last-child {
+    background: #418FFF;
+ }
+.form_btn button {
      padding: 10px 20px;
      border: 1px solid transparent;
      padding: 13px 35px;
      font-size: 22px;
-     background: linear-gradient(45deg, #5073FB, #39B5FF);
      color: white;
      border-radius: 10px;
+     width: 170px;
+     display: flex;
+     justify-content: center;
  
  }
- 
+ #C_details select{
+    margin-bottom: 20px;
+ }
+ #contact_btn{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ #login_btn{
+    display: flex;
+    justify-content: space-evenly;
+ }
  .signUP .form_btn {
      display: flex;
      justify-content: center;
      margin-top: 20px;
+
  }
  
  
@@ -164,14 +181,19 @@
      font-size: 18px;
      margin-top: 20px;
  }
- 
+ .form_btn button{
+     width: 130px;
+ }
+
      .signUP .form_tabs a {
          font-size:15px;
          
          text-decoration: none;
          padding: 5px 9px;
      }
-     
+     .form_btn button:first-child {
+        background: #5073FB;
+     }
      .signUP form h3{
          font-size: 25px;
      }

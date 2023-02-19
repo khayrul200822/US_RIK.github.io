@@ -27,7 +27,7 @@
             <div class="signUP">
             <!-- tab start -->
                 <div class="form_tabs nav nav-tabs">
-                    <a href="#" data-bs-toggle="tab" class="active" data-bs-target="#ps_details" aria-controls="ps_details"
+                    <label for=""></label><a href="#" data-bs-toggle="tab" class="active" data-bs-target="#ps_details" aria-controls="ps_details"
                         aria-selected="true" class=""><span>Personal Details</span></a>
                     <a href="#" data-bs-toggle="tab" data-bs-target="#C_details" aria-controls="C_details"
                         aria-selected="true" class=""><span>Contact Details</span></a>
@@ -62,31 +62,35 @@
                         <div class="alert_div">
                             <p>Have already an account ? <a href="#">Login here</a></p>
                         </div>
-                        <div class="form_btn">
-                            <button>Next</button>
+                        <div id="signup_btn" class="form_btn">
+                            <a href="#"><button>Next</button></a> 
                         </div>
                     </form>
 
                      <!-- contact details -->
                     <form class="tab-pane fade show" role="tabpanel" id="C_details">
                         <h3>Contact Details</h3>
-                        <div class="email">
-                            <input type="email" placeholder="xyz1234_@gmail.com">
+                        <div class="Select_section">
+                            <select name="country" id="">
+                                <option value="0" selected disabled>Country</option>
+                                <option value="ENGLISH">Bangladesh</option>
+                                <option value="HINDI">India</option>
+                                <option value="ARABIC">Nepal</option>
+                                <option value="BANGLADESHI">Bhutan</option>
+                                <option value="FRENCH">Malaysia</option>
+                                <option value="JAPANESE">Japan </option>
+                                <option value="GARMAN">German</option>
+                            </select>
                         </div>
                         <div class="password">
-                            <input type="password" placeholder="Your password">
+                            <input type="number" placeholder="Your Phone Number">
                         </div>
                         <div class="password">
-                            <input type="password" placeholder="Confirm password">
+                            <input type="number" placeholder="Your Whatsapp No">
                         </div>
-                        <div class="password">
-                            <input type="tel" placeholder="+880**********">
-                        </div>
-
-                        <div class="alert_div">
-                            <p>Have already an account ? <a href="#">Login here</a></p>
-                        </div>
-                        <div class="form_btn">
+                     
+                        <div id="contact_btn" class="form_btn">
+                            <button>Previous</button>
                             <button>Next</button>
                         </div>
                     </form>
@@ -103,9 +107,10 @@
                       
 
                         <div class="alert_div">
-                            <p>Have no an account ? <a href="../signup/index.html">Signup here</a></p>
+                            <p>By clicking Register, you agree to UK RIK E-Learning platform's <a href="../signup/index.html">Terms & Conditions,</a><a href="../signup/index.html">Privacy Policy</a> and <a href="../signup/index.html">Cookie Policy</a></p>
                         </div>
-                        <div class="form_btn">
+                        <div id="login_btn" class="form_btn">
+                            <button>Previous</button>
                             <button>Next</button>
                         </div>
                     </form>
