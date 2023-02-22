@@ -131,7 +131,7 @@ section#why_US_RKI:hover .description p {
 .hero_section p {
     line-height: 34px;
     font-size: 20px;
-    animation: p_animation 3s ease 3s alternate forwards;
+    animation: p_animation 6s ease 3s alternate forwards;
     opacity: 0;
     color: white;
 }
@@ -272,7 +272,7 @@ a:last-child .button {
 }
 
 section#why_US_RKI:hover .sBox_anim1 {
-    animation: box_animation1 4s ease alternate forwards;
+    animation: box_animation1 6s ease alternate forwards;
 }
 
 @keyframes box_animation1 {
@@ -282,7 +282,7 @@ section#why_US_RKI:hover .sBox_anim1 {
     }
 
     50% {
-        opacity: 1;
+        opacity: 0.5;
         transform: translate(0px, -200px);
     }
 
@@ -293,7 +293,7 @@ section#why_US_RKI:hover .sBox_anim1 {
 }
 
 section#why_US_RKI:hover .sBox_anim2 {
-    animation: box_animation2 4s ease alternate forwards;
+    animation: box_animation2 6s ease alternate forwards;
 }
 
 @keyframes box_animation2 {
@@ -303,7 +303,7 @@ section#why_US_RKI:hover .sBox_anim2 {
     }
 
     50% {
-        opacity: 1;
+        opacity:1;
         transform: translate(0px, -200px);
     }
 
@@ -316,7 +316,7 @@ section#why_US_RKI:hover .sBox_anim2 {
 
 
 section#why_US_RKI:hover .sBox_anim3 {
-    animation: box_animation3 4s ease alternate forwards;
+    animation: box_animation3 6s ease alternate forwards;
 }
 
 @keyframes box_animation3 {
@@ -326,7 +326,7 @@ section#why_US_RKI:hover .sBox_anim3 {
     }
 
     50% {
-        opacity: 1;
+        opacity: 0.5;
         transform: translate(0px, -200px);
     }
 
