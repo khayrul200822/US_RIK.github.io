@@ -572,10 +572,7 @@ hr {
         padding: 10px 18px;
         ;
     }
-    .nav-link {
-        color: #5271FF !important;
-   
-    }
+  
 }
 
 @media (max-width: 991px) {
