@@ -556,9 +556,7 @@ section#copyright_section p {
     line-height: 1.8em;
     width: 100%;
 }
-.offcanvas-body {
-    background: #1a214a;
-}
+
 hr {
     margin: 0 !important;
     color: #04134A;
@@ -595,6 +593,9 @@ hr {
     .header_btn button {
         margin-bottom: 20px;
         margin-top: 20px;
+    }
+    .offcanvas-body {
+        background: #1a214a;
     }
 
 }
