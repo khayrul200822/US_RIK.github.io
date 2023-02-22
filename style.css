@@ -272,7 +272,7 @@ a:last-child .button {
 }
 
 section#why_US_RKI:hover .sBox_anim1 {
-    animation: box_animation1 6s ease alternate forwards;
+    animation: box_animation1 4s ease alternate forwards;
 }
 
 @keyframes box_animation1 {
@@ -293,7 +293,7 @@ section#why_US_RKI:hover .sBox_anim1 {
 }
 
 section#why_US_RKI:hover .sBox_anim2 {
-    animation: box_animation2 6s ease alternate forwards;
+    animation: box_animation2 4s ease alternate forwards;
 }
 
 @keyframes box_animation2 {
@@ -316,7 +316,7 @@ section#why_US_RKI:hover .sBox_anim2 {
 
 
 section#why_US_RKI:hover .sBox_anim3 {
-    animation: box_animation3 6s ease alternate forwards;
+    animation: box_animation3 4s ease alternate forwards;
 }
 
 @keyframes box_animation3 {
@@ -430,31 +430,31 @@ section#footer_section {
 
 section#FAQ_section:hover .question_boxs .q_anim1 {
     transform: translate(-720px, 0px);
-    animation: q_animation 2s ease alternate forwards;
+    animation: q_animation 3s ease alternate forwards;
     opacity: 0;
 }
 
 section#FAQ_section:hover .question_boxs .q_anim2 {
     transform: translate(-720px, 0px);
-    animation: q_animation 4s ease .5s alternate forwards;
+    animation: q_animation 3s ease .5s alternate forwards;
     opacity: 0;
 }
 
 section#FAQ_section:hover .question_boxs .q_anim3 {
     transform: translate(-720px, 0px);
-    animation: q_animation 4s ease 1s alternate forwards;
+    animation: q_animation 3s ease 1s alternate forwards;
     opacity: 0;
 }
 
 section#FAQ_section:hover .question_boxs .q_anim4 {
     transform: translate(-720px, 0px);
-    animation: q_animation 4s ease 1.5s alternate forwards;
+    animation: q_animation 3s ease 1.5s alternate forwards;
     opacity: 0;
 }
 
 section#FAQ_section:hover .question_boxs .q_anim5 {
     transform: translate(-720px, 0px);
-    animation: q_animation 4s ease 2s alternate forwards;
+    animation: q_animation 3s ease 2s alternate forwards;
     opacity: 0;
 }
 
