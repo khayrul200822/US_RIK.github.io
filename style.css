@@ -282,7 +282,7 @@ section#why_US_RKI:hover .sBox_anim1 {
     }
 
     50% {
-        opacity: 0.5;
+        opacity: 1;
         transform: translate(0px, -200px);
     }
 
@@ -326,7 +326,7 @@ section#why_US_RKI:hover .sBox_anim3 {
     }
 
     50% {
-        opacity: 0.5;
+        opacity: 1;
         transform: translate(0px, -200px);
     }
 
