@@ -436,25 +436,25 @@ section#FAQ_section:hover .question_boxs .q_anim1 {
 
 section#FAQ_section:hover .question_boxs .q_anim2 {
     transform: translate(-720px, 0px);
-    animation: q_animation 2s ease .5s alternate forwards;
+    animation: q_animation 4s ease .5s alternate forwards;
     opacity: 0;
 }
 
 section#FAQ_section:hover .question_boxs .q_anim3 {
     transform: translate(-720px, 0px);
-    animation: q_animation 2s ease 1s alternate forwards;
+    animation: q_animation 4s ease 1s alternate forwards;
     opacity: 0;
 }
 
 section#FAQ_section:hover .question_boxs .q_anim4 {
     transform: translate(-720px, 0px);
-    animation: q_animation 2s ease 1.5s alternate forwards;
+    animation: q_animation 4s ease 1.5s alternate forwards;
     opacity: 0;
 }
 
 section#FAQ_section:hover .question_boxs .q_anim5 {
     transform: translate(-720px, 0px);
-    animation: q_animation 2s ease 2s alternate forwards;
+    animation: q_animation 4s ease 2s alternate forwards;
     opacity: 0;
 }
 
