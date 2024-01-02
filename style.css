@@ -23,7 +23,7 @@ a {
     overflow: hidden;
 }
 
-section {
+#hero_section, #why_US_RKI, #FAQ_section, #footer_section {
     padding: 65px 0;
 }
 
